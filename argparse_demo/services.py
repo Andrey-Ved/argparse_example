@@ -1,10 +1,5 @@
 import psutil
 import socket
-import sys
-
-
-def python_version():
-    return sys.version_info
 
 
 def ip_addresses():

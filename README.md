@@ -1,5 +1,7 @@
 # Argparse example 
-  
+\
+Simple example command-line interface via [argparse](https://docs.python.org/3/library/argparse.html)
+
 ## Installation
 
 - Clone this repo and cd into it;
@@ -12,19 +14,22 @@
 $ python.exe -m argparse_demo --h
 ```  
 ```bash
-$ python.exe -m argparse_demo --ram True
-```  
-```bash
-$ python.exe -m argparse_demo --ip 1
+$ python.exe -m argparse_demo --ip
 ```
 ```bash
-$ python.exe -m argparse_demo --cpu 1 --int 56
+$ python.exe -m argparse_demo --ram
+```
+```bash
+$ python.exe -m argparse_demo --cpu --int 56
 ```  
 
 ## Error demo
 
 ```bash
-$ python.exe -m argparse_demo --cpu 1 --int 56.1
+$ python.exe -m argparse_demo --cpu --int 56.1
+```
+```bash
+$ python.exe -m argparse_demo --cpu True --int 56
 ```
 
 ## Test
